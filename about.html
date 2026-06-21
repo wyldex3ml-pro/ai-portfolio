@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About — Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand mono" href="index.html">AM<span class="accent">.</span></a>
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta" href="contact.html">Hire Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow mono">Who I Am</p>
+    <h1 class="page-title">About Me</h1>
+  </div>
+</section>
+
+<section class="about-section">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- LEFT: Quick facts -->
+      <div class="col-lg-4">
+        <div class="quick-facts">
+          <div class="qf-row">
+            <span class="qf-label mono">Location</span>
+            <span class="qf-val">Pune, India</span>
+          </div>
+          <div class="qf-row">
+            <span class="qf-label mono">Education</span>
+            <span class="qf-val">B.E. Computer Engineering</span>
+          </div>
+          <div class="qf-row">
+            <span class="qf-label mono">Open to</span>
+            <span class="qf-val">Full-time · Internships · Freelance</span>
+          </div>
+          <div class="qf-row">
+            <span class="qf-label mono">Focus</span>
+            <span class="qf-val">Gen AI · LLMs · MLOps</span>
+          </div>
+          <div class="qf-row">
+            <span class="qf-label mono">Links</span>
+            <span class="qf-val">
+              <a href="https://github.com" target="_blank"
+                style="color:var(--accent2);text-decoration:none;">GitHub</a>
+              &nbsp;·&nbsp;
+              <a href="https://linkedin.com" target="_blank"
+                style="color:var(--accent2);text-decoration:none;">LinkedIn</a>
+            </span>
+          </div>
+        </div>
+        <div style="margin-top:2rem;">
+          <a href="contact.html" class="btn-primary-custom">Get In Touch</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: Bio text -->
+      <div class="col-lg-8">
+        <p class="about-lead">
+          I'm a Gen AI engineer from Pune with a deep obsession for making
+          language models do useful things in the real world.
+        </p>
+        <div class="about-text">
+          <p>My journey started with classical ML — decision trees, SVMs,
+          the classics — but I pivoted hard into NLP and LLMs when GPT-3
+          dropped. Since then I've been building end-to-end AI systems:
+          from chunking strategies and embedding models all the way to
+          production-ready APIs and agent workflows.</p>
+          <p>I believe the most interesting work in AI right now is at
+          the intersection of reliable systems and creative applications.
+          Getting LLMs to <em>consistently</em> do something useful is a much
+          harder engineering problem than it looks.</p>
+          <p>When I'm not shipping AI projects, I write about LLM
+          architecture on my blog, contribute to open-source ML tools,
+          and mentor junior devs getting into the space.</p>
+        </div>
+
+        <!-- TIMELINE -->
+        <div class="timeline-block">
+          <h2 class="section-title" style="margin-bottom:0;">Journey</h2>
+          <div class="timeline">
+
+            <div class="tl-item">
+              <div class="tl-year mono">2025</div>
+              <div class="tl-content">
+                <div class="tl-title">Gen AI Engineer — Freelance</div>
+                <div class="tl-desc">Building RAG systems and AI agents for startups. Shipped 6 production AI features across 3 clients.</div>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-year mono">2024</div>
+              <div class="tl-content">
+                <div class="tl-title">AI Research Intern — TechCorp Pune</div>
+                <div class="tl-desc">Fine-tuned domain-specific LLMs and built an internal knowledge base with RAG. Reduced support ticket resolution time by 60%.</div>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-year mono">2023</div>
+              <div class="tl-content">
+                <div class="tl-title">Published Research Paper</div>
+                <div class="tl-desc">"Efficient RAG for Low-Resource Languages" — presented at NLP India conference.</div>
+              </div>
+            </div>
+
+            <div class="tl-item">
+              <div class="tl-year mono">2022</div>
+              <div class="tl-content">
+                <div class="tl-title">Started B.E. Computer Engineering</div>
+                <div class="tl-desc">Savitribai Phule Pune University. Specialising in AI/ML alongside personal projects.</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="mono footer-brand">Your Name<span class="accent">.</span></span>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://huggingface.co" target="_blank">HuggingFace</a>
+      </div>
+      <span class="mono footer-copy">© 2025</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

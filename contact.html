@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Your Name</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand mono" href="index.html">AM<span class="accent">.</span></a>
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link nav-cta active" href="contact.html">Hire Me</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow mono">Let's Connect</p>
+    <h1 class="page-title">Hire Me</h1>
+    <p class="page-sub">Open to full-time roles, internships, and freelance projects.</p>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="row g-5">
+
+      <!-- LEFT: What I'm looking for -->
+      <div class="col-lg-4">
+        <h3 style="font-size:1.1rem;font-weight:600;margin-bottom:1.5rem;">
+          What I'm looking for
+        </h3>
+        <div style="display:flex;flex-direction:column;gap:1.2rem;margin-bottom:2.5rem;">
+
+          <div style="display:flex;gap:1rem;">
+            <span style="color:var(--accent);">→</span>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem;">Gen AI Engineer</div>
+              <div style="font-size:0.82rem;color:var(--text-muted);">Full-time or internship at AI-first companies</div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:1rem;">
+            <span style="color:var(--accent);">→</span>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem;">LLM / NLP Engineer</div>
+              <div style="font-size:0.82rem;color:var(--text-muted);">Fine-tuning, RAG systems, agent development</div>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:1rem;">
+            <span style="color:var(--accent);">→</span>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem;">Freelance AI Projects</div>
+              <div style="font-size:0.82rem;color:var(--text-muted);">Short-term consulting and implementation</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Quick links -->
+        <div style="display:flex;flex-direction:column;gap:0.75rem;">
+          <a href="mailto:you@example.com" style="display:flex;flex-direction:column;padding:0.9rem 1.1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--text);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+            <span style="font-size:0.72rem;color:var(--accent2);font-family:'Space Mono',monospace;margin-bottom:0.2rem;">Email</span>
+            <span style="font-size:0.88rem;color:var(--text-muted);">you@example.com</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" style="display:flex;flex-direction:column;padding:0.9rem 1.1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--text);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+            <span style="font-size:0.72rem;color:var(--accent2);font-family:'Space Mono',monospace;margin-bottom:0.2rem;">LinkedIn</span>
+            <span style="font-size:0.88rem;color:var(--text-muted);">linkedin.com/in/yourname</span>
+          </a>
+          <a href="https://github.com" target="_blank" style="display:flex;flex-direction:column;padding:0.9rem 1.1rem;background:var(--surface);border:1px solid var(--border);border-radius:8px;text-decoration:none;color:var(--text);transition:border-color 0.2s;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
+            <span style="font-size:0.72rem;color:var(--accent2);font-family:'Space Mono',monospace;margin-bottom:0.2rem;">GitHub</span>
+            <span style="font-size:0.88rem;color:var(--text-muted);">github.com/yourname</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT: The form -->
+      <div class="col-lg-8">
+        <div class="contact-form-wrap">
+
+          <!-- Success message (hidden until form is submitted) -->
+          <div id="successMsg" class="success-banner" style="display:none;">
+            <span class="icon">✓</span>
+            <div>
+              <strong>Message sent!</strong>
+              <p>Thanks for reaching out. I'll reply within 24 hours.</p>
+            </div>
+          </div>
+
+          <!-- Error message (hidden until something goes wrong) -->
+          <div id="errorMsg" class="error-banner" style="display:none;">
+            <div>
+              <strong>Something went wrong.</strong>
+              <p id="errorText">Please try again.</p>
+            </div>
+          </div>
+
+          <!-- THE FORM -->
+          <div id="formWrap">
+            <div class="row g-3">
+
+              <!-- Name -->
+              <div class="col-md-6">
+                <div class="form-group-custom">
+                  <label class="form-label-custom" for="name">Name *</label>
+                  <input type="text" id="name"
+                    class="form-input-custom"
+                    placeholder="Your full name"/>
+                  <span class="field-error" id="nameErr"></span>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="col-md-6">
+                <div class="form-group-custom">
+                  <label class="form-label-custom" for="email">Email *</label>
+                  <input type="email" id="email"
+                    class="form-input-custom"
+                    placeholder="you@company.com"/>
+                  <span class="field-error" id="emailErr"></span>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="col-md-6">
+                <div class="form-group-custom">
+                  <label class="form-label-custom" for="phone">Phone</label>
+                  <input type="tel" id="phone"
+                    class="form-input-custom"
+                    placeholder="+91 98765 43210"/>
+                </div>
+              </div>
+
+              <!-- Subject -->
+              <div class="col-md-6">
+                <div class="form-group-custom">
+                  <label class="form-label-custom" for="subject">Subject *</label>
+                  <select id="subject" class="form-input-custom">
+                    <option value="">Select a topic…</option>
+                    <option value="Full-time Role">Full-time Role Offer</option>
+                    <option value="Internship">Internship Opportunity</option>
+                    <option value="Freelance Project">Freelance AI Project</option>
+                    <option value="Collaboration">Research Collaboration</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <span class="field-error" id="subjectErr"></span>
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="col-12">
+                <div class="form-group-custom">
+                  <label class="form-label-custom" for="message">Message *</label>
+                  <textarea id="message"
+                    class="form-input-custom"
+                    rows="5"
+                    placeholder="Tell me about the role or project…"></textarea>
+                  <span class="field-error" id="messageErr"></span>
+                </div>
+              </div>
+
+              <!-- Submit button -->
+              <div class="col-12">
+                <button id="submitBtn" class="btn-submit"
+                  onclick="submitForm()">
+                  Send Message
+                </button>
+              </div>
+
+            </div>
+          </div><!-- end formWrap -->
+
+        </div><!-- end contact-form-wrap -->
+      </div><!-- end col -->
+
+    </div><!-- end row -->
+  </div><!-- end container -->
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <span class="mono footer-brand">Your Name<span class="accent">.</span></span>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://huggingface.co" target="_blank">HuggingFace</a>
+      </div>
+      <span class="mono footer-copy">© 2025</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
