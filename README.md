@@ -5,13 +5,13 @@
 <br/>
 
 [![Live Portfolio](https://img.shields.io/badge/🌐%20LIVE%20PORTFOLIO-Visit%20Now-7C3AED?style=for-the-badge&logoColor=white)](https://ai-portfolio-i4cj.onrender.com)
-[![GitHub](https://img.shields.io/badge/GitHub-wyldex3ml--pro-181717?style=for-the-badge&logo=github)](https://github.com/wyldex3ml-pro)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aditya--sarap-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/aditya-sarap)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-1F4E79?style=for-the-badge&logo=github)](https://github.com/wyldex3ml-pro)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/aditya-sarap)
 [![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com)
 
 <br/>
 
-> **🚀 A fully responsive AI developer portfolio — dark theme, animated skill bars, live project demos, and a hire me contact form. Built for recruiters, clients, and collaborators.**
+> **🚀 A fully responsive AI developer portfolio showcasing production-grade AI projects, live demos, and a contact form — built for recruiters, clients, and collaborators.**
 
 <br/>
 
@@ -23,141 +23,67 @@
 
 **👉 [https://ai-portfolio-i4cj.onrender.com](https://ai-portfolio-i4cj.onrender.com)**
 
-> No login required. All 5 sections accessible instantly.
+> No login required. Open and explore all sections instantly.
 
 ---
 
-## 🖥️ Portfolio Preview
+## ✨ Portfolio Sections
 
-### 🏠 Home — Hero Section
 ```
-┌─────────────────────────────────────────────────────────┐
-│  AS.          Home  Projects  Skills  About  [Hire Me]  │
-├─────────────────────────────────────────────────────────┤
-│                                                          │
-│  AI/ML ENGINEER INTERN · GEN AI · PYTHON · LLMS         │
-│                                                          │
-│  Building AI that                                        │
-│  thinks, retrieves                                       │
-│  & generates.                                           │
-│                                                          │
-│  MCA Data Science student from Pune with hands-on        │
-│  experience in RAG pipelines, LangChain, Gemini API,     │
-│  and end-to-end AI-powered applications.                 │
-│  Certified by Google, AWS, IBM & Anthropic.              │
-│                                                          │
-│  [View Projects]  [Hire Me]                              │
-└─────────────────────────────────────────────────────────┘
-```
-
-### 📁 Projects — Filterable Project Gallery
-```
-Filter: [All] [Gen AI] [RAG] [Machine Learning] [Cloud]
-
-┌──────────────────────────┐  ┌──────────────────────────┐
-│ Python · NLP · Streamlit │  │ LangChain · FAISS · RAG  │
-│ Gemini API          2025 │  │ Gemini API          2025 │
-│                          │  │                          │
-│ AI Resume Analyzer       │  │ RAG Chatbot              │
-│                          │  │                          │
-│ AI-powered resume        │  │ RAG chatbot using        │
-│ analyzer for ATS         │  │ LangChain, FAISS, and    │
-│ compatibility scoring    │  │ Gemini API for document  │
-│                          │  │ Q&A with semantic search │
-│ Python NLP Streamlit     │  │ Python LangChain FAISS   │
-│ Gemini API Prompt Eng    │  │ Gemini API RAG Vector DB │
-└──────────────────────────┘  └──────────────────────────┘
-```
-
-### 🛠️ Skills — Animated Progress Bars
-```
-AI & GENERATIVE AI
-
-Large Language Models (LLMs)   ████████████████████  Advanced
-RAG Pipelines                  ████████████████████  Advanced
-Prompt Engineering             ████████████████████  Advanced
-LangChain                      ██████████████████░░  Advanced
-Gemini API                     █████████████████░░░  Advanced
-```
-
-### 👤 About Me
-```
-Name:      Aditya Sarap
-Location:  Pune, Maharashtra, India
-Education: MCA Data Science — MIT College of Management (2025–2027)
-Previous:  BCA Data Science — MIT ADT University (2022–2025)
-Open to:   Internship · Freelance · Full-time
-
-"AI/ML Engineer from Pune with a passion for building intelligent
-systems using Generative AI, RAG, and machine learning."
-
-Certified by: Google · AWS · IBM · Meta · DeepLearning.AI · Anthropic
-```
-
-### 📩 Hire Me — Contact Form
-```
-What I'm looking for:
-
-→ Gen AI Engineer
-  Full-time or internship at AI-first companies
-
-→ LLM / NLP Engineer
-  Fine-tuning, RAG systems, agent development
-
-→ Freelance AI Projects
-  Short-term consulting and implementation
-
-Contact: adityasarap0009@gmail.com
+🏠  Home         →  Hero section — "Building AI that thinks, retrieves & generates"
+📁  Projects     →  All live AI projects with tech stack tags and descriptions
+🛠️  Skills       →  AI/ML stack with animated progress bars showing proficiency
+👤  About        →  Background, education, certifications, and experience
+📩  Hire Me      →  Contact form for internship, freelance, and full-time inquiries
 ```
 
 ---
 
-## ✨ Key Features
+## 🎨 Design Features
 
 ```
-🌑  Dark professional theme    →  Navy/black with purple accent colors
-💜  Purple brand identity      →  Consistent #7C3AED purple throughout
-📱  Fully responsive           →  Desktop, tablet and mobile optimised
-🏷️  Project filter tabs        →  Gen AI, RAG, Machine Learning, Cloud
-📊  Animated skill bars        →  Visual proficiency levels for every skill
-⚡  Smooth scroll navigation   →  Single page with section-based routing
-📬  Hire me contact form       →  Name, Email, Phone, Subject, Message fields
-🚀  Live on Render             →  Publicly accessible worldwide
+🌑  Dark theme          →  Professional dark navy/black color scheme
+💜  Purple accents      →  Consistent purple brand color throughout
+📱  Fully responsive    →  Works perfectly on desktop, tablet, and mobile
+⚡  Smooth navigation   →  Single-page app with smooth scroll between sections
+🏷️  Project filters     →  Filter projects by Gen AI, RAG, Machine Learning, Cloud
+📊  Skill bars          →  Animated progress bars showing skill proficiency levels
+📬  Contact form        →  Direct hire me form with topic selection
 ```
 
 ---
 
-## 🎯 Projects Showcased
+## 📁 Projects Featured
 
-| Project | Tags | Year | Live |
-|---|---|---|---|
-| AI Resume Analyzer | Python · NLP · Streamlit · Gemini API · Prompt Engineering | 2025 | Coming |
-| RAG Chatbot | LangChain · FAISS · Gemini API · RAG · Vector DB | 2025 | Coming |
-| AI Automation Hub | Python · Groq · Flask · SQLite · Railway | 2026 | [Live ↗](https://ai-automation-hub-production.up.railway.app) |
-| Aegis AI | LangGraph · RAG · Groq API · Multi-Agent | 2026 | [Live ↗](https://aegis-ai-cr2u.onrender.com) |
-| VigilanceAI | Streamlit · Flask · Vector DB · Semantic Search | 2026 | [Live ↗](https://wyldex3ml-pro-vigilanceai-dashboard-q9celx.streamlit.app) |
+| Project | Category | Live Demo |
+|---|---|---|
+| AI Automation Hub | Gen AI · Automation | [Live](https://ai-automation-hub-production.up.railway.app) |
+| Aegis AI | Multi-Agent · RAG | [Live](https://aegis-ai-cr2u.onrender.com) |
+| VigilanceAI | AI · Surveillance | [Live](https://wyldex3ml-pro-vigilanceai-dashboard-q9celx.streamlit.app) |
+| AI Resume Analyzer | Gen AI · NLP | Python · Streamlit · Gemini API |
+| RAG Chatbot | RAG · LangChain | Python · FAISS · Vector DB |
 
 ---
 
-## 🛠️ Full Skills Stack Shown
+## 🛠️ Skills Showcased
 
 **AI & Generative AI:**
-- Large Language Models (LLMs) — Advanced
-- RAG Pipelines — Advanced
-- Prompt Engineering — Advanced
-- LangChain — Advanced
-- Gemini API — Advanced
-- LangGraph — Advanced
-- Multi-Agent Systems — Advanced
+```
+Large Language Models (LLMs)    ████████████████████  Advanced
+RAG Pipelines                   ████████████████████  Advanced
+Prompt Engineering              ████████████████████  Advanced
+LangChain                       ██████████████████░░  Advanced
+Gemini API                      ██████████████████░░  Advanced
+```
 
-**Built With:**
+**Tech Stack used to build this portfolio:**
 
 | Layer | Technology |
 |---|---|
-| **Markup** | HTML5 |
-| **Styling** | CSS3 — custom dark theme with animations |
-| **Logic** | Vanilla JavaScript |
-| **Hosting** | Render — free cloud deployment |
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Design** | Custom dark theme with CSS animations |
+| **Deployment** | Render — free cloud hosting |
+| **Performance** | Optimised assets, smooth scroll, responsive grid |
 
 ---
 
@@ -166,10 +92,10 @@ Contact: adityasarap0009@gmail.com
 ```
 ai-portfolio/
 │
-├── 🌐 index.html       # Full single-page portfolio
-├── 🎨 style.css        # Dark theme, animations, responsive grid
-├── ⚡ script.js        # Filter logic, smooth scroll, form handling
-├── 📁 assets/          # Profile image and icons
+├── 🌐 index.html          # Main portfolio page
+├── 🎨 style.css           # Custom dark theme styles
+├── ⚡ script.js           # Smooth scroll, animations, form logic
+├── 📁 assets/             # Images and icons
 └── 📋 README.md
 ```
 
@@ -182,24 +108,38 @@ ai-portfolio/
 git clone https://github.com/wyldex3ml-pro/ai-portfolio.git
 cd ai-portfolio
 
-# 2. Open in browser
-# Simply open index.html in Chrome or Firefox
-# OR install VS Code Live Server extension for hot reload
+# 2. Open directly in browser
+# Just open index.html in any browser
+# OR use Live Server in VS Code for hot reload
 ```
 
-Zero dependencies. Zero build step. Open and run instantly.
+No dependencies. No build step. Just open and run.
 
 ---
 
-## 📩 Contact
+## 📩 What Recruiters See
 
-| Channel | Details |
-|---|---|
-| **Email** | adityasarap0009@gmail.com |
-| **LinkedIn** | linkedin.com/in/aditya-sarap |
-| **GitHub** | github.com/wyldex3ml-pro |
-| **Portfolio** | ai-portfolio-i4cj.onrender.com |
-| **Location** | Pune, Maharashtra, India |
+When a recruiter opens this portfolio they immediately see:
+
+```
+✅ Professional dark design — looks like a senior developer built it
+✅ Clear tagline — "Building AI that thinks, retrieves & generates"
+✅ 4+ live deployed projects — clickable demos, not just descriptions
+✅ Skill proficiency bars — LLMs, RAG, LangChain all at Advanced level
+✅ Education — MCA Data Science, MIT College of Management
+✅ Certifications — Google, AWS, IBM, Meta, Anthropic, DeepLearning.AI
+✅ Direct hire me form — one click to reach out
+```
+
+---
+
+## 🎯 Open To
+
+```
+→  Gen AI Engineer          Full-time or internship at AI-first companies
+→  LLM / NLP Engineer       Fine-tuning, RAG systems, agent development
+→  Freelance AI Projects     Short-term consulting and implementation
+```
 
 ---
 
@@ -209,14 +149,17 @@ Zero dependencies. Zero build step. Open and run instantly.
 
 > *"Building AI that thinks, retrieves & generates."*
 
+[![Email](https://img.shields.io/badge/Email-adityasarap0009@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:adityasarap0009@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/aditya-sarap)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/wyldex3ml-pro)
+
 **All Live Projects:**
 
-| Project | Live Demo |
-|---|---|
-| AI Automation Hub | [ai-automation-hub-production.up.railway.app](https://ai-automation-hub-production.up.railway.app) |
-| Aegis AI | [aegis-ai-cr2u.onrender.com](https://aegis-ai-cr2u.onrender.com) |
-| VigilanceAI Dashboard | [wyldex3ml-pro-vigilanceai-dashboard-q9celx.streamlit.app](https://wyldex3ml-pro-vigilanceai-dashboard-q9celx.streamlit.app) |
-| VigilanceAI API | [vigilanceai-vt78.onrender.com](https://vigilanceai-vt78.onrender.com) |
+| Project | Live Demo | GitHub |
+|---|---|---|
+| AI Automation Hub | [Railway](https://ai-automation-hub-production.up.railway.app) | [Repo](https://github.com/wyldex3ml-pro/ai-automation-hub) |
+| Aegis AI | [Render](https://aegis-ai-cr2u.onrender.com) | [Repo](https://github.com/wyldex3ml-pro/aegis-ai) |
+| VigilanceAI | [Streamlit](https://wyldex3ml-pro-vigilanceai-dashboard-q9celx.streamlit.app) | [Repo](https://github.com/wyldex3ml-pro/VigilanceAI) |
 
 ---
 
